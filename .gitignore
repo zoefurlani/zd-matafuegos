@@ -1,0 +1,44 @@
+# Variables de entorno (el .env.example SÍ se sube)
+.env
+.env.*
+*.env
+!.env.example
+
+# Dependencias y builds
+node_modules/
+dist/
+build/
+.cache/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDEs y editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Base de datos local y dumps
+*.sqlite
+*.db
+*.sql
+
+# Subidas de archivos
+uploads/
+
+!database/schema.sql
+!database/seed.sql
